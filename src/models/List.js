@@ -8,5 +8,5 @@ const ListSchema = new mongoose.Schema({
 }, 
 { timestamps: true }
 );
-
+  
 module.exports = mongoose.model('List', ListSchema);
