@@ -14,6 +14,7 @@ module.exports = {
   NODE_ENV,
   APP_NAME,
   MONGO_URL,
-  PORT,
-  SEC,
+  APP_PORT,
+  JWT_SECRET,
+  logger,
 };
